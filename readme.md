@@ -1,10 +1,11 @@
 I created an online portfolio for Code Kentucky's Web Development Class part 1. I used html, CSS, and javascript to create this project. 
 
 
+The wireframe for this project is located in the wireframe folder.
+
 Features:
 1. Create a responsive menu with css.
 2. Run an accessibility check and document your adjustments in your ReadMe.
-Screenshot located in Features folder.
 Semi- Complaint 
  Clickables: (score: 43) 
 Elements  with Button functionality should be tagged for assistive technology. 
