@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley Brown's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2cbd9b9d33.js" crossorigin="anonymous"></script>
+    <script  "type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <header id="header">
+    <!-- NAVIGATION MENU -->
+   <!-- Nav Bar -->
+   <div class="navBar">
+    <a href="#home" class="active"></a>
+   <!-- Nav links -->
+   <div id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+   </div>
+   <!-- Hamburger menu to toggle Nav links -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    <!-- Intro -->
+    <div id="intro">
+        <img  class="introImg" src="/images/image_6487327.JPG" alt="emoji of Ashley">
+        <h1 class="introH1">Hello, I'm Ashley Brown</h1>
+        <h3 class="introH3">I'm a <button id="btn" onclick="window.location.href='https://codepen.io/Ashleyb0'">Creative</button> Web Developer.</h3>
+    </div>
+</header>
+<main id="main">
+    <!-- Projects -->
+    <section id="projects">
+        <h2 class="projectsh2">Here are some of my projects...</h2>
+        <div>
+            <a id="hide1" a href="#hide1" class="hide"> + Google Clone</a>
+            <a id="show1" href="#show1" class="show"> - Google Clone</a>
+            <div class="details">
+                <img src="/images/Screenshot (13).png" class="googleImg" alt="Google Clone">
+                I created a google clone using HTML, CSS, & JS.
+            </div>
+            <a id="hide2" a href="#hide2" class="hide"> + Landing Page</a>
+            <a id="show2" href="#show2" class="show"> - Landing Page</a>
+            <div class="details">
+                <img src="/images/Screenshot (16).png" class="landingPageImg" alt="Landing Page">
+                I created a landing page using HTML & CSS.
+            </div>
+        </div>
+        <div id="more">
+            <a href="https://codepen.io/Ashleyb0/" target="_blank"><button id="buttonCodepen" >View more on Codepen</button></a>
+            </div>
+    </section>
+    </section>
+</main>
+<footer id="footer">
+    <div id="contact">
+        <h2 id="contact-h2">Contact me</h2>
+                <div id="contactIcons">
+                <a href="mailto:ashleylynnbrown0710@gmail.com" alt="link to email Ashley" class="contacta"><i class="fa-solid fa-at" id="contactIcon2"></i></a>
+                <a href="https://www.linkedin.com/in/ashley-brown-550719243/" alt="link to Ashley's Linkedin" target="_blank" class="contacta"><i class="fa-brands fa-linkedin" id="contactIcon3"></i></a>
+                <a href="https://github.com/ashl3yb" alt="link to Ashley's github" target="_blank" class="contacta"><i class="fa-brands fa-github" id="contactIcon4"></i></a>
+    </div>
+    <p id="maintained"> This website is maintained by: Ashley Brown 2022 </p>
+</footer>
+
+    <script>
+        /* Toggle between showing/hiding nav menu links when the user clicks on the hamburger menu */
+function myFunction(){
+    var x = document.getElementById("navLinks");
+    if (x.style.display === "block"){
+        x.style.display = "none";
+    }
+    else{
+        x.style.display = "block";
+    }
+};
+    </script>
+</body>
+</html>
